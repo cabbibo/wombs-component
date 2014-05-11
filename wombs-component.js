@@ -1,8 +1,4 @@
   function Component(){
-  
-  }
-
-  Component.prototype._init = function(){
 
     this.active       = false;
 
@@ -14,8 +10,22 @@
 
     this.init();
 
+  }
+
+
+  // TODO:
+  // Make this make sense.
+  // Arbitrarily can bind one piece of data
+  // to update another, and push to the update array of this component
+  Component.prototype.bindData = function( i , o ){
+
+
+    o = i;
 
   }
+  Component.prototype.onError = function(){}
+
+  Component.prototype._init = function(){}
 
   Component.prototype.init = function(){}
 
