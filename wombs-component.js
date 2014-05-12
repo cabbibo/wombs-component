@@ -1,17 +1,19 @@
+  
+  var _ = require( 'underscore' );
+
   function Component(){
 
-    this.active       = false;
+    this.active         = false;
 
-    this._startArray   = [];
-    this._endArray     = [];
-    this._updateArray  = [];
+    this._startArray    = [];
+    this._endArray      = [];
+    this._updateArray   = [];
 
-    this.components   = [];
+    this.components     = [];
 
     this.init();
 
   }
-
 
   // TODO:
   // Make this make sense.
